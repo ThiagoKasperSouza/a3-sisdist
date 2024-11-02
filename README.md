@@ -2,6 +2,9 @@
 
 Autor - Thiago Kasper de Souza - 2024
 
+Requisitos:
+Acesso provido pelo professor
+
 Rodar:
 - Abrir HTML no firefox;
 OBS - api é bem lenta em alguns momentos, então caso as informações não apareçam, precisa aguardar a tabela ser populada.
