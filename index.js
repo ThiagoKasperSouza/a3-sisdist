@@ -9,9 +9,7 @@ const vars = {
     email: "example@gmail.com",
     password: "example"
 }
-
-
-// token exemplo 
+ 
 async function getCities(token) {
     try {
         const response = await fetch(new Request(vars.api+"/cidades", {
@@ -61,7 +59,6 @@ async function init() {
             console.log("TOKEN: ", data.token, Date.now());
             getCities(data.token);
         };
-        //getCities("");
     } catch(error) {
        return  error;
     }
